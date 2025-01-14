@@ -15,6 +15,11 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
+            
+
+    #Player Movement
+        #Rotate Player
+        player.update(dt)
 
 #Screen fill color and screen refresh
         screen.fill("black")
